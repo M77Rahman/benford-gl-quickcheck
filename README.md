@@ -16,6 +16,10 @@ Benford analysis is widely used in audit/forensics as a *screening* test to spot
 pip install pandas matplotlib
 python benford_gl_quickcheck.py --csv sample_gl.csv --column amount
 ```
+## Install
+```bash
+pip install -r requirements.txt
+
 
 ## Input format
 CSV with at least one numeric column, e.g.:
