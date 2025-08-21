@@ -9,6 +9,7 @@ Benford analysis is widely used in audit/forensics as a *screening* test to spot
 - Reads any CSV with a numeric amount column (default: `amount`)
 - Outputs a chart (`benford_chart.png`) and a short `REPORT.md`
 - Zero external services. Python + pandas + matplotlib only.
+![Benford chart](benford_chart.png)
 
 ## Quickstart
 ```bash
